@@ -2,19 +2,21 @@ import React, { useState } from 'react'
 import image from "../assets/FB_IMG_1632361671640__2_-removebg-preview.png"
 import { Link} from "react-router-dom"
 import { link,homeText } from '../constants'
-import {FaStream} from "react-icons/fa"
+import {FaUserAlt} from "react-icons/fa"
 
 const Home = () => {
   const [open, setOpen] = useState(false);
-  const color ={
-    backgroundColor:"#383838"
+ 
+  const Font ={
+    fontFamily: 'Roboto, sans-serif'
   }
   return (
     <>
      <div>
      <div
-        className="pt-6 h-full w-full sm:h-full sm:w-full sm:overflow-hidden"
-        style={color}
+        className="pt-6 h-full w-full sm:h-full sm:w-full sm:overflow-hidden
+         bg-blue-700 border-b-0 border-r-0 border-l-0 border-t-2 rounded-t-xl"
+      
       >
         <div
           className=" p-6 overflow-hidden
@@ -24,11 +26,11 @@ const Home = () => {
             <img
               src={image}
               alt=""
-              className="px-20 fixed sm:fixed sm:top-8 sm:right-24"
+              className=" fixed sm:fixed sm:top-8 sm:right-24 w-[90px] h-[50px] top-9"
             />
-            <FaStream
+            <FaUserAlt
               className="cursor-pointer sm:cursor-pointer text-white sm:text-white
-              sm:text-2xl text-4xl fixed sm:fixed sm:right-10 right-60 font-normal sm:top-11 "
+              sm:text-2xl text-4xl fixed sm:fixed top-10 sm:right-10 right-60 font-normal sm:top-11 "
               onClick={() => setOpen(!open)}
             />
           </div>
@@ -40,32 +42,20 @@ const Home = () => {
           >
             <ul
               className="flex justify-center flex-col gap-6 sm:gap-2 text-center cursor-pointer
-            pt-18"
+            pb-10" style={Font}
             >
               <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold">
                 <Link to="/">Home</Link>
               </li>
               <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold">
-                <Link to="/services">Our services</Link>
+                <Link to="/about">About Me</Link>
               </li>
               <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold">
-                <Link to="/works">Our works</Link>
+                <Link to="/skills">Skills</Link>
               </li>
               <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold">
-                <Link to="/about">About Us</Link>
-              </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold">
-                <Link to="/team">Team</Link>
-              </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold">
-                <Link to="/contact">Contact Us</Link>
-              </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold">
-                <Link to="/card">Card</Link>
-              </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold">
-                <Link to="/puzzle">Puzle</Link>
-              </li>
+                <Link to="/contact">Contact Me</Link>
+              </li>   
             </ul>
           </div>
         )}
@@ -73,11 +63,11 @@ const Home = () => {
     <div className='w-full h-full bg-slate-200 flex space-x-4'>
   <img src={image} alt="my image" className='h-[450px]'/>
   <div className='flex flex-col pt-16'>
-  <h3 className='text-6xl font-bold leading-normal'>{homeText.first}</h3>
-    <h2 className='text-6xl font-bold leading-normal relative right-9'>{homeText.second}</h2>
+  <h3 className='text-6xl font-bold leading-normal text-blue-700' style={Font}>{homeText.first}</h3>
+    <h2 className='text-6xl font-bold leading-normal relative right-9' style={Font}>{homeText.second}</h2>
     <a href='' className='font-semibold w-[200px]
      p-5 bg-blue-700 text-white mt-16 text-2xl
-     hover:text-blue-700 hover:bg-slate-400 border-[3px] rounded-xl'>
+     hover:text-blue-700 hover:bg-slate-400 border-[3px] rounded-xl' style={Font}>
       {link.firstText}</a>
   </div>
 </div>
