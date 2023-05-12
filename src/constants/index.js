@@ -4,5 +4,8 @@ export const homeText ={
     second:"Web Developer",
     button:"Read More"
 }
+export const link={
+   firstText:"Let's Go 🐱‍🏍"
+}
 
     
