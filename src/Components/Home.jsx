@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import image from "../assets/FB_IMG_1632361671640__2_-removebg-preview.png"
 import { Link} from "react-router-dom"
-import { link,homeText } from '../constants'
+import { link, homeText, navTexts } from '../constants'
 import {FaUserAlt} from "react-icons/fa"
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
   const Font ={
     fontFamily: 'Roboto, sans-serif'
   }
+ 
   return (
     <>
      <div>
@@ -30,7 +31,7 @@ const Home = () => {
             />
             <FaUserAlt
               className="cursor-pointer sm:cursor-pointer text-white sm:text-white
-              sm:text-2xl text-4xl fixed sm:fixed top-10 sm:right-10 right-60 font-normal sm:top-11 "
+              sm:text-2xl text-4xl fixed sm:fixed top-10 sm:right-10 right-60 font-normal sm:top-11 hover:text-gray"
               onClick={() => setOpen(!open)}
             />
           </div>
@@ -44,17 +45,17 @@ const Home = () => {
               className="flex justify-center flex-col gap-6 sm:gap-2 text-center cursor-pointer
             pb-10" style={Font}
             >
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold">
-                <Link to="/">Home</Link>
+              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+                <Link to="/" target='_blank'>{navTexts.first}</Link>
               </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold">
-                <Link to="/about">About Me</Link>
+              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+                <Link to="/about" target='__blank'>{navTexts.second}</Link>
               </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold">
-                <Link to="/skills">Skills</Link>
+              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+                <Link to="/skills" target='_blank'>{navTexts.third}</Link>
               </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold">
-                <Link to="/contact">Contact Me</Link>
+              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+                <Link to="/contact" target='_blank'>{navTexts.fourth}</Link>
               </li>   
             </ul>
           </div>
