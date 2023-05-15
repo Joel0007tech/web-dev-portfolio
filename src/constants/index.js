@@ -6,13 +6,14 @@ export const homeText ={
 }
 export const link={
    firstText:"Let's Go 🐱‍🏍",
-   secondText:"know more about me"
+   secondText:"know More About Me"
 }
 export const navTexts={
     first:"Home",
     second:"About Me",
-    third:"Skills",
+    third:"Past Projects",
     fourth:"Contact Me"
 }
+
 
     
