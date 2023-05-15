@@ -6,7 +6,7 @@ export const homeText ={
 }
 export const link={
    firstText:"Let's Go 🐱‍🏍",
-   secondText:"know More About Me"
+   secondText:"Know More About Me"
 }
 export const navTexts={
     first:"Home",

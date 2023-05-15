@@ -89,7 +89,7 @@ const About = () => {
           </div>
           <div className="w-1/2 animate__animated animate__fadeInRight sm:m-auto">
             <p
-              className="text-blue-700 text-xl relative right-24 pt-8 font-medium"
+              className="text-blue-700 text-xl relative right-24 pt-8 font-bold"
               style={Font}
             >
               JOEL is a web developer, with over 3 years of epeerience,
@@ -107,7 +107,7 @@ const About = () => {
             <div className="relative right-28 pt-5">
               <a
                 href=""
-                className=" p-4 bg-blue-700 border rounded text-white
+                className=" p-4 bg-blue-700 border rounded text-white font-bold
       hover:text-blue-700 hover:bg-slate-400"
                 style={Font}
               >
@@ -117,8 +117,8 @@ const About = () => {
           </div>
         </div>
         <div>
-        <h3 className="text-blue-700 font-bold text-center text-xl" style={Font}>Categories Of Websites(apps) I Will Develop For You;</h3>
-        <div className="flex gap-4 p-4">
+        <h3 className="text-blue-700 font-bold text-center text-xl pt-6" style={Font}>Few Out Of The Categories Of Websites(apps) I Will Develop For You;</h3>
+        <div className="flex gap-4 p-6">
          <div>
           <img src={biography} alt="biography" className="w-[350px] h-[150px]"/>
           <div className="bg-white w-[120px] relative bottom-20 m-auto">
