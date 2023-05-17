@@ -68,7 +68,7 @@ const Skills = () => {
         <h3 className="text-blue-700 font-bold text-xl pt-4" style={Font}>
           Take A Glance At My Past Projects;
         </h3>
-        </div>
+
         <div className="flex flex-col p-20 gap-14 items-center ">
           <div className="relative w-[600px] h-[450px] right-40
            transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:opacity-50">
@@ -181,6 +181,7 @@ const Skills = () => {
             </a>
     
       </div>
+    </div>
     </div>
     </div>
     </div>
