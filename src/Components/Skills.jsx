@@ -204,7 +204,7 @@ const Skills = () => {
      <a
               href=""
               className="text-center bg-white py-3 px-9 sm:py-2 sm:my-4 text-blue-700
-               hover:bg-white hover:text-blue-700 font-semibold sm:text-sm
+               hover:bg-blue-700 hover:text-white font-semibold sm:text-sm
              w-[170px] sm:w-[250px] h-[50px] sm:h-[40px] m-auto rounded-lg"
               style={Font}
             >
