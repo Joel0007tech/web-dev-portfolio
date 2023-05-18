@@ -2,7 +2,8 @@ import React,{useState} from 'react'
 import { Link } from "react-router-dom";
 import image from "../assets/FB_IMG_1632361671640__2_-removebg-preview.png";
 import { navTexts} from "../constants";
-import { FaUserAlt } from "react-icons/fa";
+import { FaUserAlt} from "react-icons/fa";
+import {TbBrandWhatsapp, TbBrandLinkedin, TbBrandTwitter, TbBrandInstagram} from "react-icons/tb"
 
 const Contact = () => {
   const [open, setOpen] = useState(false);
@@ -79,6 +80,15 @@ const Contact = () => {
      </div>
     <input type="submit" value="Send Message"style={Font} className='bg-blue-700 text-gray-200 mt-4 p-3
      font-bold border-4 rounded-lg hover:text-blue-700 hover:bg-gray-400 cursor-pointer'/>
+     <div className='pt-5 flex flex-col justify-center pb-7'>
+      <h3 className='text-blue-700 text-center font-semibold text-xl' style={Font}>You can as well reach out to me below;</h3>
+      <div className='flex flex-row m-auto gap-4 pt-3'>
+      <TbBrandWhatsapp className='text-white text-5xl fill-green-600 cursor-pointer'/>
+        <TbBrandLinkedin className='text-white text-5xl fill-blue-600 cursor-pointer'/>
+        <TbBrandTwitter className='text-blue-600 text-5xl fill-blue-600 cursor-pointer'/>
+        <TbBrandInstagram className='text-white text-5xl fill-red-700 cursor-pointer'/>
+      </div>
+      </div>
       </div>
     </div>
   )
