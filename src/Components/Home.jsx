@@ -10,28 +10,25 @@ const Home = () => {
   const Font ={
     fontFamily: 'Roboto, sans-serif'
   }
- 
+
   return (
     <>
      <div>
      <div
-        className="pt-6 h-full w-full sm:h-full sm:w-full sm:overflow-hidden
+        className="p-5 h-full w-full sm:h-full sm:w-full sm:overflow-hidden
          bg-blue-700 border-b-0 border-r-0 border-l-0 border-t-2 rounded-t-xl"
-      
       >
         <div
-          className=" p-6 overflow-hidden
-            sm:border-b-2 sm:border-white sm:rounded-b-md"
+          className=" overflow-hidden"
         >
-          <div className="sm:pb-3 sm:pt-3 sm:flex">
+          <div className="sm:flex flex justify-between">
             <img
               src={image}
               alt=""
-              className=" fixed sm:fixed sm:top-8 sm:right-24 w-[90px] h-[50px] top-9"
-            />
+              className="w-[90px] sm:w-[50px] h-[50px] sm:h-[30px]"/>
             <FaUserAlt
               className="cursor-pointer sm:cursor-pointer text-white sm:text-white
-              sm:text-2xl text-4xl fixed sm:fixed top-10 sm:right-10 right-60 font-normal sm:top-11 hover:text-gray"
+              sm:text-2xl text-4xl float-right font-normal hover:text-gray sm:float-right"
               onClick={() => setOpen(!open)}
             />
           </div>
@@ -61,14 +58,14 @@ const Home = () => {
           </div>
         )}
         </div>
-    <div className='w-full h-full bg-slate-200 flex space-x-4'>
-  <img src={image} alt="my image" className='h-[450px]'/>
-  <div className='flex flex-col pt-16'>
-  <h3 className='text-6xl font-bold leading-normal text-blue-700' style={Font}>{homeText.first}</h3>
-    <h2 className='text-6xl font-bold leading-normal relative right-9' style={Font}>{homeText.second}</h2>
-    <a href='' className='font-semibold w-[200px]
-     p-5 bg-blue-700 text-white mt-16 text-2xl
-     hover:text-blue-700 hover:bg-slate-400 border-[3px] rounded-xl' style={Font}>
+    <div className='w-full h-full bg-slate-200 flex space-x-4 sm:flex sm:flex-col justify-center sm:h-[450px]'>
+  <img src={image} alt="my image" className='h-[350px] sm:h-[210px]'/>
+<div className='flex flex-col pt-16 sm:space-y-3 sm:pt-5'>
+  <h3 className='text-6xl font-bold leading-normal text-blue-700 sm:text-3xl sm:font-bold' style={Font}>{homeText.first}</h3>
+    <h2 className='text-6xl font-bold leading-normal relative right-9 sm:text-3xl sm:right-3' style={Font}>{homeText.second}</h2>
+    <a href='https://github.com/Joel0007tech' className='font-semibold w-[200px]
+     p-5 bg-blue-700 text-white mt-10 mb-2 text-2xl sm:text-lg sm:m-auto sm:p-3
+     hover:text-blue-700 hover:bg-slate-400 border-[3px] rounded-xl sm:rounded-md' style={Font}>
       {link.firstText}</a>
   </div>
 </div>
