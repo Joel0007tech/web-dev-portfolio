@@ -15,7 +15,7 @@ const Home = () => {
     <>
      <div>
      <div
-        className="p-5 h-full w-full sm:h-full sm:w-full sm:overflow-hidden
+        className="p-5 h-full w-full sm:h-full sm:w-full sm:overflow-hidden pt-7
          bg-blue-700 border-b-0 border-r-0 border-l-0 border-t-2 rounded-t-xl"
       >
         <div
