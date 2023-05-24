@@ -16,8 +16,9 @@ const Home = () => {
     <>
      <div>
      <div
-        className="p-5 h-full w-full sm:h-full sm:w-full sm:overflow-hidden pt-7
-         bg-blue-700 border-b-0 border-r-0 border-l-0 border-t-2 rounded-t-xl"
+        className="p-5 h-full w-[1700px] sm:h-full sm:w-[300px] sm:overflow-hidden pt-7
+         bg-blue-700 border-b-0 border-r-0 border-l-0
+          border-t-2 rounded-t-xl m-auto mt-14 sm:mt-0"
       >
         <div
           className=" overflow-hidden"
@@ -59,14 +60,16 @@ const Home = () => {
           </div>
         )}
         </div>
-    <div className='w-full h-full bg-slate-200 flex space-x-4 sm:flex sm:flex-col justify-center sm:h-[450px]'>
-  <img src={image} alt="my image" className='h-[350px] sm:h-[210px]'/>
-<div className='flex flex-col pt-16 sm:space-y-3 sm:pt-5'>
-  <h3 className='text-6xl font-bold leading-normal text-blue-700 sm:text-3xl sm:font-bold' style={Font}>{homeText.first}</h3>
-    <h2 className='text-6xl font-bold leading-normal relative right-9 sm:text-3xl sm:right-3' style={Font}>{homeText.second}</h2>
-    <a href='https://github.com/Joel0007tech' className='font-semibold w-[200px]
-     p-5 bg-blue-700 text-white mt-10 mb-2 text-2xl sm:text-lg sm:m-auto sm:p-3
-     hover:text-blue-700 hover:bg-slate-400 border-[3px] rounded-xl sm:rounded-md' style={Font}>
+    <div className='w-[1700px] sm:w-[300px]  h-full sm:h-full bg-slate-200 flex space-x-4 sm:flex
+     sm:flex-col justify-center m-auto pb-9 sm:overflow-hidden'>
+  <img src={image} alt="my image" className='h-[750px] sm:h-[150px] sm:w-[210px] sm:m-auto'/>
+<div className='flex flex-col pt-56 gap-5 sm:pt-5'>
+  <h3 className='text-7xl font-bold leading-normal relative right-20 sm:text-3xl sm:font-bold sm:left-4' style={Font}>{homeText.first}</h3>
+    <h2 className='text-7xl font-bold leading-normal relative right-20 sm:text-3xl sm:right-3 sm:text-center' style={Font}>{homeText.second}</h2>
+    <a href='https://github.com/Joel0007tech' className='font-semibold w-[350px] sm:w-[200px]
+     p-7 bg-blue-700 text-white mt-10 mb-2 text-4xl sm:text-lg sm:m-auto sm:p-3
+     hover:text-blue-700 hover:bg-slate-400 border-[3px]
+      rounded-xl sm:rounded-md text-center relative right-14 sm:relative sm:right-3' style={Font}>
       {link.firstText}</a>
   </div>
 </div>
