@@ -17,24 +17,22 @@ const Skills = () => {
   }
   return (
     <div>
-<div
-        className="pt-6 h-full w-full sm:h-full sm:w-full sm:overflow-hidden
-         bg-blue-700 border-b-0 border-r-0 border-l-0 border-t-2 rounded-t-xl"
-      
+ <div
+        className="p-5 h-full w-[1850px] sm:h-full sm:w-[300px] sm:overflow-hidden pt-7 mt-2
+         bg-blue-700 border-b-0 border-r-0 border-l-0
+          border-t-2 rounded-t-xl m-auto sm:mt-0"
       >
         <div
-          className=" p-6 overflow-hidden
-            sm:border-b-2 sm:border-white sm:rounded-b-md"
+          className=" overflow-hidden"
         >
-          <div className="sm:pb-3 sm:pt-3 sm:flex">
+          <div className="sm:flex flex justify-between">
             <img
               src={image}
               alt=""
-              className=" fixed sm:fixed sm:top-8 sm:right-24 w-[90px] h-[50px] top-9"
-            />
+              className="w-[90px] sm:w-[50px] h-[50px] sm:h-[30px]"/>
             <FaUserAlt
               className="cursor-pointer sm:cursor-pointer text-white sm:text-white
-              sm:text-2xl text-4xl fixed sm:fixed top-10 sm:right-10 right-60 font-normal sm:top-11 hover:text-gray"
+              sm:text-2xl text-4xl float-right font-normal hover:text-gray sm:float-right"
               onClick={() => setOpen(!open)}
             />
           </div>
