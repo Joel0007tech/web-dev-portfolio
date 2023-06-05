@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import image from "../assets/FB_IMG_1632361671640__2_-removebg-preview.png";
 import { link, navTexts} from "../constants";
-import { FaUserAlt } from "react-icons/fa";
+import { FaUserAlt,FaHtml5,FaReact,FaCss3Alt, } from "react-icons/fa";
+import { DiJavascript1} from "react-icons/di";
+import {SiTailwindcss} from "react-icons/si";
 import biography from "../assets/biography.jpg.jpg";
 import blog from "../assets/blog.jpg.jpg";
 import eCommerce from "../assets/e-commerce.jpg.jpg"
@@ -79,7 +81,7 @@ const About = () => {
           </div>
           <div className="w-1/2 animate__animated animate__fadeInRight sm:m-auto">
             <p
-              className="text-blue-700 text-2xl relative right-24 pt-8 font-bold"
+              className="text-blue-700 text-2xl relative right-24 pt-4 font-bold"
               style={Font}
             >
               JOEL is a web developer, with over 3 years of epeerience,
@@ -94,7 +96,14 @@ const About = () => {
                 HTML, CSS, JAVASCRIPT, TAILWINDCSS, AND REACTjs.
               </span>
             </p>
-            <div className="relative right-28 pt-5 mt-10">
+            <div className="flex relative right-24 gap-3">
+              <FaHtml5 className="w-[100px] h-[200px] fill-red-400"/>
+              <FaCss3Alt className="w-[100px] h-[200px]"/>
+              <DiJavascript1 className="w-[100px] h-[200px]"/>
+              <SiTailwindcss className="w-[100px] h-[200px] text-blue-400"/>
+              <FaReact className="w-[100px] h-[200px] text-blue-400"/>
+            </div>
+            <div className="relative right-28 pt-5">
               <a
                 href=""
                 className=" bg-blue-700 border rounded text-white font-bold
@@ -107,35 +116,35 @@ const About = () => {
           </div>
         </div>
         <div>
-        <h3 className="text-blue-700 font-bold text-center text-3xl pt-10" style={Font}>Few Out Of The Categories Of Websites(apps) I Will Develop For You;</h3>
+        <h3 className="text-blue-700 font-bold text-center text-3xl pt-4" style={Font}>Few Out Of The Categories Of Websites(apps) I Will Develop For You;</h3>
         <div className="flex gap-4 p-6">
          <div>
-          <img src={biography} alt="biography" className="w-[350px] h-[250px]"/>
-          <div className="bg-white w-[150px] relative bottom-32 m-auto pt-2 pb-2">
+          <img src={biography} alt="biography" className="w-[350px] h-[180px]"/>
+          <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
             <p className="text-blue-700 font-bold text-center text-xl" style={Font}>Biography</p>
           </div>
          </div>
          <div>
-          <img src={blog} alt="blog" className="w-[350px] h-[250px]"/>
-          <div className="bg-white w-[150px] relative bottom-32 m-auto pt-2 pb-2">
+          <img src={blog} alt="blog" className="w-[350px] h-[180px]"/>
+          <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
             <p className="text-blue-700 font-bold text-center text-xl" style={Font}>Blog</p>
           </div>
          </div>
          <div>
-          <img src={eCommerce} alt="e-commerce" className="w-[350px] h-[250px]"/>
-          <div className="bg-white w-[150px] relative bottom-32 m-auto pt-2 pb-2">
+          <img src={eCommerce} alt="e-commerce" className="w-[350px] h-[180px]"/>
+          <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
             <p className="text-blue-700 font-bold text-center text-xl" style={Font}>E-commerce</p>
           </div>
          </div>
          <div>
-          <img src={branding} alt="branding" className="w-[350px] h-[250px]"/>
-          <div className="bg-white w-[150px] relative bottom-32 m-auto pt-2 pb-2">
+          <img src={branding} alt="branding" className="w-[350px] h-[180px]"/>
+          <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
             <p className="text-blue-700 font-bold text-center text-xl" style={Font}>Branding</p>
           </div>
          </div>
          <div>
-          <img src={charity} alt="charity" className="w-[350px] h-[250px]"/>
-          <div className="bg-white w-[150px] relative bottom-32 m-auto pt-2 pb-2">
+          <img src={charity} alt="charity" className="w-[350px] h-[180px]"/>
+          <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
             <p className="text-blue-700 font-bold text-center text-xl" style={Font}>Charity</p>
           </div>
          </div>
