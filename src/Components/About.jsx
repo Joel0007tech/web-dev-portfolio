@@ -97,8 +97,8 @@ const About = () => {
               </span>
             </p>
             <div className="flex relative right-24 gap-3">
-              <FaHtml5 className="w-[100px] h-[200px] fill-red-400"/>
-              <FaCss3Alt className="w-[100px] h-[200px]"/>
+              <FaHtml5 className="w-[100px] h-[200px] fill-red-600"/>
+              <FaCss3Alt className="w-[100px] h-[200px] fill-blue-500"/>
               <DiJavascript1 className="w-[100px] h-[200px]"/>
               <SiTailwindcss className="w-[100px] h-[200px] text-blue-400"/>
               <FaReact className="w-[100px] h-[200px] text-blue-400"/>

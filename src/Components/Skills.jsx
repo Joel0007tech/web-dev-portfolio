@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import image from "../assets/FB_IMG_1632361671640__2_-removebg-preview.png"
 import { Link} from "react-router-dom"
 import {navTexts } from '../constants'
-import {FaUserAlt} from "react-icons/fa"
+import {FaUserAlt,FaArrowRight} from "react-icons/fa"
 import ace from "../assets/ace project.png"
 import hoobank from "../assets/hoobank project.png"
 import architecture from "../assets/architecture project.png"
@@ -62,8 +62,8 @@ const Skills = () => {
           </div>
         )}
         </div>
-        <div className='bg-slate-200'>
-        <h3 className="text-blue-700 font-bold text-xl pt-4" style={Font}>
+        <div className='bg-slate-200 w-[1850px] m-auto'>
+        <h3 className="text-blue-700 font-bold text-3xl pt-4 text-center" style={Font}>
           Take A Glance At My Past Projects;
         </h3>
 
@@ -209,6 +209,13 @@ const Skills = () => {
                visit website
             </a>
       </div>
+    </div>
+    <div className='relative float-right flex gap-2 left-60 bottom-20'>
+      <a href='https://github.com/Joel0007tech' target={'_blank'}
+       className='text-blue-700 cursor-pointer text-xl font-bold underline' style={Font}>
+        view more 
+      </a>
+      <FaArrowRight className='relative top-2 text-blue-700'/>
     </div>
     </div>
     </div>
