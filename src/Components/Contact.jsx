@@ -16,6 +16,7 @@ const Contact = () => {
   const Font = {
     fontFamily: "Roboto, sans-serif",
   };
+
   return (
     <div>
       <div
@@ -73,22 +74,32 @@ const Contact = () => {
       </div>
       <div className="bg-slate-200 pt-5 w-[1850px] m-auto">
         <h3
-          className="text-blue-700 font-bold text-xl text-center"
+          className="text-blue-700 font-bold text-2xl text-center"
           style={Font}
         >
           Have any questions ? Reach out to me below;
         </h3>
-        <form className="flex flex-col pt-3 gap-3">
-          <div className="m-auto">
-          <input type={"email"} placeholder="hello" className="h-[50px] w-[550px]"/>
-          <p>Email</p>
-          </div>
-         
-         <input type={"email"} placeholder="hello" className="m-auto h-[550px] w-[550px]"/>
+        <form className="flex flex-col pt-3 gap-2">
+          <input type={"email"} placeholder="Email" className="m-auto pb-6 w-[550px] pt-6 pl-3 text-white text-lg
+           bg-blue-700 font-semibold rounded-t-md" style={Font}/>
+         <input type={"email"} placeholder="your query" className="m-auto pb-60 w-[550px] pt-2 pl-3 text-white text-lg
+          bg-blue-700 font-semibold rounded-b-md" style={Font}/>
         </form>
-        <div className="pt-5 flex flex-col justify-center pb-7">
+        <div className=" flex justify-center mt-5">
+        <a
+              href=""
+              className="text-center bg-blue-700 py-3 px-9 sm:py-2 sm:my-4 text-white
+               hover:bg-blue-700 hover:text-slate-400 font-semibold sm:text-sm
+             w-[170px] sm:w-[250px] h-[50px] sm:h-[40px] rounded-lg "
+              style={Font}
+            >
+               SUBMIT
+            </a>
+        </div>
+        
+        <div className="pt-5 flex flex-col justify-center pb-7 mt-3">
           <h3
-            className="text-blue-700 text-center font-semibold text-xl"
+            className="text-blue-700 text-center font-semibold text-2xl"
             style={Font}
           >
             You can as well reach out to me below;

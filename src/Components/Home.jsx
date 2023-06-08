@@ -16,7 +16,7 @@ const Home = () => {
     <>
      <div>
      <div
-        className="p-5 h-full w-[1850px] sm:h-full sm:w-[300px] sm:overflow-hidden pt-7 mt-2
+        className="p-5 h-full w-[1850px] sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
          bg-blue-700 border-b-0 border-r-0 border-l-0
           border-t-2 rounded-t-xl m-auto sm:mt-0"
       >
@@ -60,10 +60,10 @@ const Home = () => {
           </div>
         )}
         </div>
-    <div className='w-[1850px] sm:w-[300px]  h-[820px] sm:h-full bg-slate-200 flex space-x-4 sm:flex
+    <div className='w-[1850px] sm:w-[330px]  h-[820px] sm:h-[475px] bg-slate-200 flex space-x-4 sm:flex
      sm:flex-col justify-center m-auto pb-9 sm:overflow-hidden'>
   <img src={image} alt="my image" className='h-[750px] sm:h-[150px] sm:w-[210px] sm:m-auto'/>
-<div className='flex flex-col pt-56 gap-5 sm:pt-5'>
+<div className='flex flex-col pt-56 gap-5 sm:pt-2'>
   <h3 className='text-7xl font-bold leading-normal relative right-20 sm:text-3xl sm:font-bold sm:left-4' style={Font}>{homeText.first}</h3>
     <h2 className='text-7xl font-bold leading-normal relative right-20 sm:text-3xl sm:right-3 sm:text-center' style={Font}>{homeText.second}</h2>
     <a href='https://github.com/Joel0007tech' className='font-semibold w-[350px] sm:w-[200px]

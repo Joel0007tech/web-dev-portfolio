@@ -20,7 +20,7 @@ const About = () => {
   return (
     <div>
       <div
-        className="p-5 h-full w-[1850px] sm:h-full sm:w-[300px] sm:overflow-hidden pt-7 mt-2
+        className="p-5 h-full w-[1850px] sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
          bg-blue-700 border-b-0 border-r-0 border-l-0
           border-t-2 rounded-t-xl m-auto sm:mt-0"
       >
@@ -64,9 +64,9 @@ const About = () => {
           </div>
         )}
         </div>
-      <div className=" bg-slate-200 h-[820px] w-[1850px] m-auto">
+      <div className=" bg-slate-200 h-[820px] w-[1850px] m-auto sm:h-[1800px] sm:w-[330px] sm:overflow-hidden">
         <h3
-          className="text-blue-700 font-bold text-center text-4xl pt-5"
+          className="text-blue-700 font-bold text-center text-4xl pt-5 sm:text-2xl"
           style={Font}
         >
           About Me
@@ -76,18 +76,20 @@ const About = () => {
             <img
               src={image}
               alt="vector"
-              className="h-[250px] w-[350px] sm:relative sm:left-[100px]"
+              className="h-[250px] w-[350px] sm:relative sm:left-[100px] 2xl:block sm:hidden"
             />
           </div>
-          <div className="w-1/2 animate__animated animate__fadeInRight sm:m-auto">
+          <div className="2xl:w-1/2 animate__animated animate__fadeInRight sm:m-auto sm:w-full">
             <p
-              className="text-blue-700 text-2xl relative right-24 pt-4 font-bold"
+              className="text-blue-700 text-2xl relative right-24 2xl:pt-4 font-bold sm:relative
+               sm:left-0 sm:text-lg sm:pt-0 sm:text-center sm:bottom-10"
               style={Font}
             >
-              JOEL is a web developer, with over 3 years of epeerience,
-              <br />
-              in developing websites and webApps, for individuals, and <br />
-              companies, helping them achieve their aims and objectives.
+              JOEL is a web developer, with <br className="sm:block 2xl:hidden"/>over 3 years of epeerience,
+              <br className="2xl:block sm:hidden"/>
+              in <br className="sm:block 2xl:hidden"/> developing websites and webApps,<br className="sm:block 2xl:hidden"/> for individuals,
+               and <br className="2xl:block sm:hidden"/>
+              companies, helping them achieve their<br className="sm:block 2xl:hidden"/>  aims and objectives.
               <br />
               I have experience in:
               <br />
@@ -96,18 +98,19 @@ const About = () => {
                 HTML, CSS, JAVASCRIPT, TAILWINDCSS, AND REACTjs.
               </span>
             </p>
-            <div className="flex relative right-24 gap-3">
-              <FaHtml5 className="w-[100px] h-[200px] fill-red-600"/>
-              <FaCss3Alt className="w-[100px] h-[200px] fill-blue-500"/>
-              <DiJavascript1 className="w-[100px] h-[200px]"/>
-              <SiTailwindcss className="w-[100px] h-[200px] text-blue-400"/>
-              <FaReact className="w-[100px] h-[200px] text-blue-400"/>
+            <div className="flex relative right-24 gap-3 sm:bottom-20 sm:justify-center left-1">
+              <FaHtml5 className="w-[100px] h-[200px] fill-red-600 sm:w-[50px]"/>
+              <FaCss3Alt className="w-[100px] h-[200px] fill-blue-500 sm:w-[50px]"/>
+              <DiJavascript1 className="w-[100px] h-[200px] sm:w-[50px]"/>
+              <SiTailwindcss className="w-[100px] h-[200px] text-blue-400 sm:w-[50px]"/>
+              <FaReact className="w-[100px] h-[200px] text-blue-400 sm:w-[50px]"/>
             </div>
-            <div className="relative right-28 pt-5">
+            <div className="relative 2xl:right-28 pt-5 sm:left-24 sm:bottom-36">
               <a
                 href=""
-                className=" bg-blue-700 border rounded text-white font-bold
-      hover:text-blue-700 hover:bg-slate-400 pr-28 pl-28 pt-5 pb-5 text-2xl"
+                className=" bg-blue-700 border rounded text-white font-bold sm:font-medium
+      hover:text-blue-700 hover:bg-slate-400 pr-28 sm:pr-5 pl-28 sm:pl-5 pt-5
+       sm:pt-2 pb-5 sm:pb-2 text-2xl sm:text-lg"
                 style={Font}
               >
                 {link.secondText}
@@ -115,9 +118,10 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div>
-        <h3 className="text-blue-700 font-bold text-center text-3xl pt-4" style={Font}>Few Out Of The Categories Of Websites(apps) I Will Develop For You;</h3>
-        <div className="flex gap-4 p-6">
+        <div className="sm:relative sm:bottom-36">
+        <h3 className="text-blue-700 font-bold text-center text-3xl pt-4 sm:text-2xl" style={Font}>
+          Few Out Of The Categories Of Websites(apps) I Will Develop For You;</h3>
+        <div className="flex gap-4 p-6 sm:flex-col">
          <div>
           <img src={biography} alt="biography" className="w-[350px] h-[180px]"/>
           <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
