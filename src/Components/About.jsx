@@ -125,31 +125,31 @@ const About = () => {
          <div>
           <img src={biography} alt="biography" className="w-[350px] h-[180px]"/>
           <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
-            <p className="text-blue-700 font-bold text-center text-xl" style={Font}>Biography</p>
+            <p className="text-blue-700 font-bold text-center text-lg" style={Font}>Biography</p>
           </div>
          </div>
          <div>
           <img src={blog} alt="blog" className="w-[350px] h-[180px]"/>
           <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
-            <p className="text-blue-700 font-bold text-center text-xl" style={Font}>Blog</p>
+            <p className="text-blue-700 font-bold text-center text-lg" style={Font}>Blog</p>
           </div>
          </div>
          <div>
           <img src={eCommerce} alt="e-commerce" className="w-[350px] h-[180px]"/>
           <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
-            <p className="text-blue-700 font-bold text-center text-xl" style={Font}>E-commerce</p>
+            <p className="text-blue-700 font-bold text-center text-lg" style={Font}>E-commerce</p>
           </div>
          </div>
          <div>
           <img src={branding} alt="branding" className="w-[350px] h-[180px]"/>
           <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
-            <p className="text-blue-700 font-bold text-center text-xl" style={Font}>Branding</p>
+            <p className="text-blue-700 font-bold text-center text-lg" style={Font}>Branding</p>
           </div>
          </div>
          <div>
           <img src={charity} alt="charity" className="w-[350px] h-[180px]"/>
           <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
-            <p className="text-blue-700 font-bold text-center text-xl" style={Font}>Charity</p>
+            <p className="text-blue-700 font-bold text-center text-lg" style={Font}>Charity</p>
           </div>
          </div>
         </div>
