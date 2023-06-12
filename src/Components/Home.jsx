@@ -60,7 +60,7 @@ const Home = () => {
           </div>
         )}
         </div>
-    <div className='w-[1850px] sm:w-[330px]  h-[820px] sm:h-[550px] bg-slate-200 flex space-x-4 sm:flex
+    <div className='w-[1850px] sm:w-[330px]  h-[820px] sm:h-[650px] bg-slate-200 flex space-x-4 sm:flex
      sm:flex-col justify-center m-auto pb-9 sm:overflow-hidden'>
   <img src={image} alt="my image" className='h-[750px] sm:h-[150px] sm:w-[210px] sm:m-auto'/>
 <div className='flex flex-col pt-56 gap-5 sm:pt-2'>
