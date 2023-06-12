@@ -98,14 +98,14 @@ const About = () => {
                 HTML, CSS, JAVASCRIPT, TAILWINDCSS, AND REACTjs.
               </span>
             </p>
-            <div className="flex relative right-24 gap-3 sm:bottom-20 sm:justify-center left-1">
+            <div className="flex relative right-24 gap-3 sm:bottom-20 sm:justify-center sm:left-1">
               <FaHtml5 className="w-[100px] h-[200px] fill-red-600 sm:w-[50px]"/>
               <FaCss3Alt className="w-[100px] h-[200px] fill-blue-500 sm:w-[50px]"/>
               <DiJavascript1 className="w-[100px] h-[200px] sm:w-[50px]"/>
               <SiTailwindcss className="w-[100px] h-[200px] text-blue-400 sm:w-[50px]"/>
               <FaReact className="w-[100px] h-[200px] text-blue-400 sm:w-[50px]"/>
             </div>
-            <div className="relative 2xl:right-28 pt-5 sm:left-24 sm:bottom-36">
+            <div className="relative right-16 pt-5 sm:left-24 sm:relative sm:bottom-36">
               <a
                 href=""
                 className=" bg-blue-700 border rounded text-white font-bold sm:font-medium
@@ -119,7 +119,7 @@ const About = () => {
           </div>
         </div>
         <div className="sm:relative sm:bottom-36">
-        <h3 className="text-blue-700 font-bold text-center text-3xl pt-4 sm:text-2xl" style={Font}>
+        <h3 className="text-blue-700 font-bold text-center text-3xl pt-4 sm:text-xl" style={Font}>
           Few Out Of The Categories Of Websites(apps) I Will Develop For You;</h3>
         <div className="flex gap-4 p-6 sm:flex-col">
          <div>

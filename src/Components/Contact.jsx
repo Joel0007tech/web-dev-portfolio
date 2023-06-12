@@ -20,9 +20,9 @@ const Contact = () => {
   return (
     <div>
       <div
-        className="p-5 h-full w-[1850px] sm:h-full sm:w-[300px] sm:overflow-hidden pt-7 mt-2
-         bg-blue-700 border-b-0 border-r-0 border-l-0
-          border-t-2 rounded-t-xl m-auto sm:mt-0"
+        className="p-5 h-full w-[1850px] sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
+        bg-blue-700 border-b-0 border-r-0 border-l-0
+         border-t-2 rounded-t-xl m-auto sm:mt-0"
       >
         <div className=" overflow-hidden">
           <div className="sm:flex flex justify-between">
@@ -72,17 +72,17 @@ const Contact = () => {
           </div>
         )}
       </div>
-      <div className="bg-slate-200 pt-5 w-[1850px] m-auto">
+      <div className="bg-slate-200 w-[1850px] m-auto sm:h-full sm:w-[330px] sm:overflow-hidden">
         <h3
-          className="text-blue-700 font-bold text-2xl text-center"
+          className="text-blue-700 font-bold text-2xl text-center sm:text-xl"
           style={Font}
         >
           Have any questions ? Reach out to me below;
         </h3>
         <form className="flex flex-col pt-3 gap-2">
-          <input type={"email"} placeholder="Email" className="m-auto pb-6 w-[550px] pt-6 pl-3 text-white text-lg
-           bg-blue-700 font-semibold rounded-t-md" style={Font}/>
-         <input type={"email"} placeholder="your query" className="m-auto pb-60 w-[550px] pt-2 pl-3 text-white text-lg
+          <input type={"email"} placeholder="Email" className="m-auto pb-6 sm:pb-3 w-[550px] pt-6 sm:pt-3 pl-3 text-white text-lg sm:text-sm
+           bg-blue-700 font-semibold rounded-t-md sm:w-[320px]" style={Font}/>
+         <input type={"email"} placeholder="your query" className="m-auto pb-60 w-[550px] sm:w-[320px] pt-2 pl-3 text-white text-lg sm:text-sm
           bg-blue-700 font-semibold rounded-b-md" style={Font}/>
         </form>
         <div className=" flex justify-center mt-5">
@@ -90,25 +90,24 @@ const Contact = () => {
               href=""
               className="text-center bg-blue-700 py-3 px-9 sm:py-2 sm:my-4 text-white
                hover:bg-blue-700 hover:text-slate-400 font-semibold sm:text-sm
-             w-[170px] sm:w-[250px] h-[50px] sm:h-[40px] rounded-lg "
+             w-[170px] sm:w-[150px] h-[50px] sm:h-[40px] rounded-lg "
               style={Font}
             >
                SUBMIT
             </a>
         </div>
-        
         <div className="pt-5 flex flex-col justify-center pb-7 mt-3">
           <h3
-            className="text-blue-700 text-center font-semibold text-2xl"
+            className="text-blue-700 text-center font-semibold text-2xl sm:text-lg"
             style={Font}
           >
             You can as well reach out to me below;
           </h3>
           <div className="flex flex-row m-auto gap-4 pt-3">
-            <TbBrandWhatsapp className="text-white text-5xl fill-green-600 cursor-pointer" />
-            <TbBrandLinkedin className="text-white text-5xl fill-blue-600 cursor-pointer" />
-            <TbBrandTwitter className="text-blue-600 text-5xl fill-blue-600 cursor-pointer" />
-            <TbBrandInstagram className="text-white text-5xl fill-red-700 cursor-pointer" />
+            <TbBrandWhatsapp className="text-white text-5xl fill-green-600 cursor-pointer sm:text-4xl" />
+            <TbBrandLinkedin className="text-white text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
+            <TbBrandTwitter className="text-blue-600 text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
+            <TbBrandInstagram className="text-white text-5xl fill-red-700 cursor-pointer sm:text-4xl" />
           </div>
         </div>
       </div>

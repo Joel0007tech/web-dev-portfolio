@@ -18,9 +18,9 @@ const Skills = () => {
   return (
     <div>
  <div
-        className="p-5 h-full w-[1850px] sm:h-full sm:w-[300px] sm:overflow-hidden pt-7 mt-2
-         bg-blue-700 border-b-0 border-r-0 border-l-0
-          border-t-2 rounded-t-xl m-auto sm:mt-0"
+        className="p-5 h-full w-[1850px] sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
+        bg-blue-700 border-b-0 border-r-0 border-l-0
+         border-t-2 rounded-t-xl m-auto sm:mt-0"
       >
         <div
           className=" overflow-hidden"
@@ -62,12 +62,12 @@ const Skills = () => {
           </div>
         )}
         </div>
-        <div className='bg-slate-200 w-[1850px] m-auto'>
-        <h3 className="text-blue-700 font-bold text-3xl pt-4 text-center" style={Font}>
+        <div className='bg-slate-200 w-[1850px] m-auto sm:h-full sm:w-[330px] sm:overflow-hidden'>
+        <h3 className="text-blue-700 font-bold text-3xl pt-4 text-center sm:text-xl" style={Font}>
           Take A Glance At My Past Projects;
         </h3>
 
-        <div className="flex flex-col p-20 gap-14 items-center ">
+        <div className="flex flex-col p-20 gap-14 items-center sm:hidden 2xl:block">
           <div className="relative w-[600px] h-[450px] right-40
            transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             <img
@@ -75,7 +75,7 @@ const Skills = () => {
         src={hoobank}
         alt="placeholder"
       />
-      <div className="absolute top-40 flex gap-4 w-full h-full left-7
+      <div className="absolute top-40 flex gap-4 w-full h-full left-7 sm:hidden 2xl:block
        items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
      <div className="flex flex-col bg-white border rounded-t-md p-3">
     <h3 className=" text-xl font-bold text-black" style={Font}>Hoobank project</h3>
@@ -96,7 +96,7 @@ const Skills = () => {
     </div>
     <div className="relative w-[600px] h-[450px] left-40 
     transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110  hover:bg-black
-    ">
+    sm:hidden 2xl:block">
       <div>
       <img
         className="w-[600px] h-[450px]"
@@ -125,7 +125,7 @@ const Skills = () => {
       </div>
     </div>
     </div>
-    <div className="flex flex-col p-20 gap-14 items-center ">
+    <div className="flex flex-col p-20 gap-14 items-center sm:hidden 2xl:block">
           <div className="relative w-[600px] h-[450px] right-40
            transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             <img
@@ -133,7 +133,7 @@ const Skills = () => {
         src={architecture}
         alt="placeholder"
       />
-      <div className="absolute top-40 flex gap-4 w-full h-full left-7
+      <div className="absolute top-40 flex gap-4 w-full h-full left-7 sm:hidden 2xl:block
        items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
      <div className="flex flex-col bg-orange-600 p-3 border rounded-t-md">
     <h3 className="text-white text-xl font-bold" style={Font}>Architecture</h3>
@@ -183,7 +183,7 @@ const Skills = () => {
     
       </div>
     </div>
-    <div className="relative w-[600px] h-[450px] right-40
+    <div className="relative w-[600px] h-[450px] right-40 sm:hidden 2xl:block
            transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             <img
         className="w-[600px] h-[450px] hover:shadow-sm"
@@ -219,6 +219,7 @@ const Skills = () => {
     </div>
     </div>
     </div>
+
     </div>
   )
 }
