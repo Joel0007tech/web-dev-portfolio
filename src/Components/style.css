@@ -7,6 +7,7 @@
         flex-direction: column;
         justify-content: center;
         padding: 5px ;
+        gap:30px;
     }
     .first__mobile-items{
         display: flex;
@@ -15,6 +16,30 @@
     }
     .first__mobile-items img{
        margin: auto;
+    }
+    .second__mobile-items{
+        display: flex;
+        gap: 2px;
+        flex-direction: column;
+    }
+    .second__mobile-items img{
+        margin: auto;
+    }
+    .third__mobile-items{
+        display: flex;
+        gap: 2px;
+        flex-direction:column;
+    }
+    .third__mobile-items img{
+        margin: auto;
+    }
+    .fourth__mobile-items{
+        display: flex;
+        gap: 2px;
+        flex-direction:column; 
+    }
+    .fourth__mobile-items img{
+        margin: auto;
     }
 }
 @media screen and (min-width:428px) {
