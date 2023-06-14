@@ -71,11 +71,11 @@ const Skills = () => {
 <div className='mobile-items'>
 <div className='first__mobile-items'>
 <img
-        className="w-[200px] h-[150px] hover:shadow-sm"
+        className="w-[300px] h-[200px] hover:shadow-sm"
         src={hoobank}
         alt="placeholder"
       />
-      <p>A banking app</p>
+      <p className='text-center text-blue-700 font-semibold' style={Font}>A banking app</p>
 </div>
 </div>
   </div>

@@ -11,6 +11,10 @@
     .first__mobile-items{
         display: flex;
         gap: 2px;
+        flex-direction: column;
+    }
+    .first__mobile-items img{
+       margin: auto;
     }
 }
 @media screen and (min-width:428px) {
