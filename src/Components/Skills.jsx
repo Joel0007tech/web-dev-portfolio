@@ -7,7 +7,8 @@ import ace from "../assets/ace project.png"
 import hoobank from "../assets/hoobank project.png"
 import architecture from "../assets/architecture project.png"
 import counter from "../assets/counter app.png";
-import ctmaid from "../assets/ctmaid project.png"
+import ctmaid from "../assets/ctmaid project.png";
+import "./style.css"
 
 const Skills = () => {
   const [open, setOpen] = useState(false);
@@ -66,7 +67,18 @@ const Skills = () => {
         <h3 className="text-blue-700 font-bold text-3xl pt-4 text-center sm:text-xl" style={Font}>
           Take A Glance At My Past Projects;
         </h3>
-
+<div className='hide'>
+<div className='mobile-items'>
+<div className='first__mobile-items'>
+<img
+        className="w-[200px] h-[150px] hover:shadow-sm"
+        src={hoobank}
+        alt="placeholder"
+      />
+      <p>A banking app</p>
+</div>
+</div>
+  </div>
         <div className="flex flex-col p-20 gap-14 items-center sm:hidden 2xl:block">
           <div className="relative w-[600px] h-[450px] right-40
            transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">

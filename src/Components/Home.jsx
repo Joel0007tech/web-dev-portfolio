@@ -3,6 +3,12 @@ import image from "../assets/FB_IMG_1632361671640__2_-removebg-preview.png"
 import { Link} from "react-router-dom"
 import { link, homeText, navTexts } from '../constants'
 import {FaUserAlt} from "react-icons/fa"
+// import {
+//   TbBrandWhatsapp,
+//   TbBrandLinkedin,
+//   TbBrandTwitter,
+//   TbBrandInstagram,
+// } from "react-icons/tb";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -60,18 +66,19 @@ const Home = () => {
           </div>
         )}
         </div>
-    <div className='w-[1850px] sm:w-[330px]  h-[820px] sm:h-[650px] bg-slate-200 flex space-x-4 sm:flex
+    <div className='w-[1850px] sm:w-[330px]  h-[820px] sm:h-full bg-slate-200 flex space-x-4 sm:flex
      sm:flex-col justify-center m-auto pb-9 sm:overflow-hidden'>
   <img src={image} alt="my image" className='h-[750px] sm:h-[150px] sm:w-[210px] sm:m-auto'/>
 <div className='flex flex-col pt-56 gap-5 sm:pt-2'>
-  <h3 className='text-7xl font-bold leading-normal relative right-20 sm:text-3xl sm:font-bold sm:left-4' style={Font}>{homeText.first}</h3>
-    <h2 className='text-7xl font-bold leading-normal relative right-20 sm:text-3xl sm:right-3 sm:text-center' style={Font}>{homeText.second}</h2>
+  <h3 className='text-7xl font-bold leading-normal relative right-20 sm:text-3xl sm:font-bold sm:left-4 sm:top-8' style={Font}>{homeText.first}</h3>
+    <h2 className='text-7xl font-bold leading-normal relative right-20 sm:text-3xl sm:right-3 sm:text-center sm:top-8' style={Font}>{homeText.second}</h2>
     <a href='https://github.com/Joel0007tech' className='font-semibold w-[350px] sm:w-[200px]
      p-7 bg-blue-700 text-white mt-10 mb-2 text-4xl sm:text-lg sm:m-auto sm:p-3
      hover:text-blue-700 hover:bg-slate-400 border-[3px]
-      rounded-xl sm:rounded-md text-center relative right-14 sm:relative sm:right-3' style={Font}>
+      rounded-xl sm:rounded-md text-center relative right-14 sm:relative sm:right-3 sm:top-10' style={Font}>
       {link.firstText}</a>
   </div>
+
 </div>
 </div>
     </>
