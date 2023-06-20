@@ -194,6 +194,7 @@ const Skills = () => {
                 </div>
               </div>
           </div>
+          <div></div>
           <div className="flex flex-col p-20 gap-14 items-center sm:hidden 2xl:block">
             <div
               className="relative w-[600px] h-[450px] right-40

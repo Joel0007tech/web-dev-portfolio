@@ -12,7 +12,7 @@ export const navTexts=
 {
   first:"Home",
   second:"About",
-  third:"Skills",
+  third:"My Works",
   fourth:"Contact Me"
 }
     

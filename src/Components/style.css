@@ -1,4 +1,4 @@
-/* @media screen and (max-width:428px){
+@media screen and (max-width:428px){
     .hide h3{
         color: blue;
     }
@@ -46,4 +46,4 @@
     .hide{
         display: none;
     }
-} */
+}
