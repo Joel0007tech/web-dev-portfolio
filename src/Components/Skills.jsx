@@ -103,7 +103,7 @@ const Skills = () => {
                 </p>
                 <div className="flex justify-center mt-3">
                   <a
-                    href=""
+                    href="https://bank-app-ten-mu.vercel.app/"
                     className="bg-blue-700 text-white flex pr-7 pl-7 rounded pt-1 pb-1"
                     style={Font}
                   >
@@ -136,7 +136,7 @@ const Skills = () => {
                 </p>
                 <div className="flex justify-center mt-3">
                   <a
-                    href=""
+                    href="https://practice-project-chi.vercel.app/"
                     className="bg-blue-700 text-white flex pr-7 pl-7 rounded pt-1 pb-1"
                     style={Font}
                   >
@@ -160,7 +160,7 @@ const Skills = () => {
                     showcase architectural activities.</p>
                   <div className="flex justify-center mt-3">
                   <a
-                    href=""
+                    href="https://architecture-nine.vercel.app/"
                     className="bg-blue-700 text-white flex pr-7 pl-7 rounded pt-1 pb-1"
                     style={Font}
                   >
@@ -184,7 +184,7 @@ const Skills = () => {
                   to keep<br/> the environment safe.</p>
                   <div className="flex justify-center mt-3">
                   <a
-                    href=""
+                    href="https://ct-maid-synergy.vercel.app/"
                     className="bg-blue-700 text-white flex pr-7 pl-7 rounded pt-1 pb-1"
                     style={Font}
                   >
@@ -224,7 +224,7 @@ const Skills = () => {
                   </p>
                 </div>
                 <a
-                  href=""
+                  href="https://bank-app-ten-mu.vercel.app/"
                   className="text-center bg-black py-3 px-9 sm:py-2 sm:my-4
               hover hover:bg-white hover:text-black text-white font-semibold sm:text-sm
              w-[170px] sm:w-[250px] h-[50px] sm:h-[40px] m-auto rounded-lg"
@@ -262,7 +262,7 @@ const Skills = () => {
                   </p>
                 </div>
                 <a
-                  href=""
+                  href="https://practice-project-chi.vercel.app/"
                   className="text-center bg-white py-3 px-9 sm:py-2 sm:my-4
               hover hover:bg-black hover:text-white text-black font-semibold sm:text-sm
              w-[170px] sm:w-[250px] h-[50px] sm:h-[40px] m-auto rounded-lg"
@@ -301,7 +301,7 @@ const Skills = () => {
                   </p>
                 </div>
                 <a
-                  href=""
+                  href="https://architecture-nine.vercel.app/"
                   className="text-center bg-orange-600 py-3 px-9 sm:py-2 sm:my-4
                hover:bg-white hover:text-orange-600 text-white font-semibold sm:text-sm
              w-[170px] sm:w-[250px] h-[50px] sm:h-[40px] m-auto rounded-lg"
