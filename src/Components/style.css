@@ -1,4 +1,4 @@
-@media screen and (max-width:428px){
+
     .hide h3{
         color: blue;
     }
@@ -41,7 +41,7 @@
     .fourth__mobile-items img{
         margin: auto;
     }
-}
+
 @media screen and (min-width:428px) {
     .hide{
         display: none;

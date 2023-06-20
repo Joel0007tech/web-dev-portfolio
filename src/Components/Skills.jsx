@@ -78,8 +78,8 @@ const Skills = () => {
         >
           Take A Glance At My Past Projects;
         </h3>
-        <div className="hide">
-          <div className="mobile-items">
+        <div>
+          <div className="mobile-items hide">
             <div className="first__mobile-items">
               <img
                 className="w-[250px] h-[180px] hover:shadow-sm"
@@ -194,7 +194,6 @@ const Skills = () => {
                 </div>
               </div>
           </div>
-          <div></div>
           <div className="flex flex-col p-20 gap-14 items-center sm:hidden 2xl:block">
             <div
               className="relative w-[600px] h-[450px] right-40
