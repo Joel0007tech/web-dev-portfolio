@@ -16,6 +16,9 @@ const Contact = () => {
   const Font = {
     fontFamily: "Roboto, sans-serif",
   };
+  function myFunction() {
+    alert("message recorded");
+  }
 
   return (
     <div>
@@ -72,7 +75,7 @@ const Contact = () => {
           </div>
         )}
       </div>
-      <div className="bg-slate-200 w-[1850px] m-auto sm:h-full sm:w-[330px] sm:overflow-hidden">
+      <div className="bg-slate-200 w-[1850px] m-auto sm:h-full sm:w-[330px] sm:overflow-hidden pt-6">
         <h3
           className="text-blue-700 font-bold text-2xl text-center sm:text-xl"
           style={Font}
@@ -92,7 +95,7 @@ const Contact = () => {
                hover:bg-blue-700 hover:text-slate-400 font-semibold sm:text-sm
              w-[170px] sm:w-[150px] h-[50px] sm:h-[40px] rounded-lg "
               style={Font}
-            >
+              onClick={myFunction()}>
                SUBMIT
             </a>
         </div>
