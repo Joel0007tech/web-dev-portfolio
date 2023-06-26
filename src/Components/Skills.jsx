@@ -79,7 +79,7 @@ const Skills = () => {
           Take A Glance At My Past Projects;
         </h3>
         <div>
-          <div className="mobile-items hide pb-5">
+          <div className="mobile-items hide pb-7">
             <div className="first__mobile-items">
               <img
                 className="w-[250px] h-[180px] hover:shadow-sm"
@@ -197,12 +197,12 @@ const Skills = () => {
               <a
                 href="https://github.com/Joel0007tech"
                 target={"_blank"}
-                className="text-blue-700 cursor-pointer text-lg font-bold underline"
+                className="text-blue-700 cursor-pointer text-md font-bold underline"
                 style={Font}
               >
                 view more
               </a>
-              <FaArrowRight className="relative top-2 text-blue-700" />
+              <FaArrowRight className="relative top-1.5 text-blue-700" />
             </div>
           </div>
           <div className="flex flex-col p-20 gap-14 items-center sm:hidden 2xl:block">
