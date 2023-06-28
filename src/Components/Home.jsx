@@ -3,12 +3,10 @@ import image from "../assets/FB_IMG_1632361671640__2_-removebg-preview.png"
 import { Link} from "react-router-dom"
 import { link, homeText, navTexts } from '../constants'
 import {FaUserAlt} from "react-icons/fa"
-// import {
-//   TbBrandWhatsapp,
-//   TbBrandLinkedin,
-//   TbBrandTwitter,
-//   TbBrandInstagram,
-// } from "react-icons/tb";
+import {FaHtml5,FaReact,FaCss3Alt, } from "react-icons/fa";
+import { DiJavascript1} from "react-icons/di";
+import {SiTailwindcss} from "react-icons/si";
+
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -66,11 +64,12 @@ const Home = () => {
           </div>
         )}
         </div>
-    <div className='w-[1850px] sm:w-[330px]  h-[820px] sm:h-full bg-slate-200 flex space-x-4 sm:flex
+    <div className='w-[1850px] sm:w-[330px]  h-[820px] sm:h-full bg-slate-200 flex flex-col space-x-4 sm:flex
      sm:flex-col justify-center m-auto pb-9 sm:overflow-hidden'>
-  <img src={image} alt="my image" className='h-[750px] sm:h-[150px] sm:w-[210px] sm:m-auto'/>
+      <div className='flex sm:flex-col'>
+      <img src={image} alt="my image" className='h-[750px] sm:h-[150px] sm:w-[210px] sm:m-auto'/>
 <div className='flex flex-col pt-56 gap-5 sm:pt-2'>
-  <h3 className='text-7xl font-bold leading-normal relative right-20 sm:text-3xl sm:font-bold sm:left-4 sm:top-8' style={Font}>{homeText.first}</h3>
+  <h3 className='text-7xl font-bold leading-normal relative right-20 sm:text-3xl sm:font-bold sm:left-10 sm:top-8' style={Font}>{homeText.first}</h3>
     <h2 className='text-7xl font-bold leading-normal relative right-20 sm:text-3xl sm:right-3 sm:text-center sm:top-8' style={Font}>{homeText.second}</h2>
     <a href='https://github.com/Joel0007tech' className='font-semibold w-[350px] sm:w-[200px]
      p-7 bg-blue-700 text-white mt-10 mb-2 text-4xl sm:text-lg sm:m-auto sm:p-3
@@ -78,7 +77,21 @@ const Home = () => {
       rounded-xl sm:rounded-md text-center relative right-14 sm:relative sm:right-3 sm:top-10' style={Font}>
       {link.firstText}</a>
   </div>
-
+      </div>
+      <div className='pt-5 flex justify-center sm:pt-20'>
+        <div className='flex justify-center bg-blue-200 w-fit gap-3'>
+          <FaHtml5 className="w-[100px] h-[70px] fill-red-600 sm:w-[50px]
+         border border-t-4 border-b-2 border-r-2 border-l-2 border-blue-500 rounded-md hover:animate-pulse"/>
+              <FaCss3Alt className="w-[100px] h-[70px] fill-blue-500 sm:w-[50px]
+               border border-t-4 border-b-2 border-r-2 border-l-2 border-blue-500 rounded-md hover:animate-pulse"/>
+              <DiJavascript1 className="w-[100px] h-[70px] sm:w-[50px]
+               border border-t-4 border-b-2 border-r-2 border-l-2 border-blue-500 rounded-md hover:animate-pulse"/>
+              <SiTailwindcss className="w-[100px] h-[70px] text-blue-400 sm:w-[50px]
+               border border-t-4 border-b-2 border-r-2 border-l-2 border-blue-500 rounded-md hover:animate-pulse"/>
+              <FaReact className="w-[100px] h-[70px] text-blue-400 sm:w-[50px]
+               border border-t-4 border-b-2 border-r-2 border-l-2 border-blue-500 rounded-md hover:animate-pulse"/>
+        </div>
+      </div>
 </div>
 </div>
     </>
