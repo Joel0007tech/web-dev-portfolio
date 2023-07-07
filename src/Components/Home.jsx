@@ -78,17 +78,17 @@ const Home = () => {
       {link.firstText}</a>
   </div>
       </div>
-      <div className='pt-5 flex justify-center sm:pt-20'>
+      <div className='pt-5 flex justify-center sm:pt-20 relative right-2'>
         <div className='flex justify-center bg-blue-200 w-fit gap-3'>
-          <FaHtml5 className="w-[100px] h-[70px] fill-red-600 sm:w-[50px]
+          <FaHtml5 className="w-[80px] h-[50px] fill-red-600 sm:w-[50px]
          border border-t-4 border-b-2 border-r-2 border-l-2 border-blue-500 rounded-md hover:animate-pulse"/>
-              <FaCss3Alt className="w-[100px] h-[70px] fill-blue-500 sm:w-[50px]
+              <FaCss3Alt className="w-[80px] h-[50px] fill-blue-500 sm:w-[50px]
                border border-t-4 border-b-2 border-r-2 border-l-2 border-blue-500 rounded-md hover:animate-pulse"/>
-              <DiJavascript1 className="w-[100px] h-[70px] sm:w-[50px]
+              <DiJavascript1 className="w-[80px] h-[50px] sm:w-[50px]
                border border-t-4 border-b-2 border-r-2 border-l-2 border-blue-500 rounded-md hover:animate-pulse"/>
-              <SiTailwindcss className="w-[100px] h-[70px] text-blue-400 sm:w-[50px]
+              <SiTailwindcss className="w-[80px] h-[50px] text-blue-400 sm:w-[50px]
                border border-t-4 border-b-2 border-r-2 border-l-2 border-blue-500 rounded-md hover:animate-pulse"/>
-              <FaReact className="w-[100px] h-[70px] text-blue-400 sm:w-[50px]
+              <FaReact className="w-[80px] h-[50px] text-blue-400 sm:w-[50px]
                border border-t-4 border-b-2 border-r-2 border-l-2 border-blue-500 rounded-md hover:animate-pulse"/>
         </div>
       </div>
