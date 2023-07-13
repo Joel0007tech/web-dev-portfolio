@@ -71,6 +71,9 @@ const About = () => {
         >
           About Me
         </h3>
+        <a href="tel:+234-903-541-5909">call me</a><br/>
+        <a href="sms:+234-706-428-9990">hello brooo</a><br/>
+        <a href="mailto:joelnft00@gmail.com">idan haffa</a>
         <div className="flex justify-center py-5 sm:flex sm:flex-col sm:gap-10">
           <div className="w-1/2 animate__animated animate__fadeInLeft flex flex-row justify-center">
             <img
