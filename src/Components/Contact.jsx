@@ -19,9 +19,9 @@ const Contact = () => {
   const Font = {
     fontFamily: "Roboto, sans-serif",
   };
-  function myFunction() {
-    alert("message recorded");
-  }
+  // function myFunction() {
+  //   alert("message recorded");
+  // }
 
   return (
     <div>
@@ -52,7 +52,7 @@ const Contact = () => {
             <ul
               className="flex justify-center flex-col gap-6 sm:gap-2 text-center cursor-pointer
             pb-10"
-              style={Font}
+              style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"
             >
               <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/" target="_blank">
@@ -85,7 +85,7 @@ const Contact = () => {
         >
           Have any questions ? Reach out to me below;
         </h3>
-        <form className="flex flex-col pt-3 gap-2">
+        <form className="flex flex-col pt-3 gap-2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
           <input type={"email"} placeholder="Email" className="m-auto pb-6 sm:pb-3 w-[550px] pt-6 sm:pt-3 pl-3 text-white text-lg sm:text-sm
            bg-blue-700 font-semibold rounded-t-md sm:w-[320px]" style={Font}/>
          <input type={"email"} placeholder="your query" className="m-auto pb-60 w-[550px] sm:w-[320px] pt-2 pl-3 text-white text-lg sm:text-sm
@@ -97,8 +97,7 @@ const Contact = () => {
               className="text-center bg-blue-700 py-3 px-9 sm:py-2 sm:my-4 text-white
                hover:bg-blue-700 hover:text-slate-400 font-semibold sm:text-sm
              w-[170px] sm:w-[150px] h-[50px] sm:h-[40px] rounded-lg "
-              style={Font}
-              onClick={myFunction()}>
+              style={Font}>
                SUBMIT
             </a>
         </div>
@@ -109,7 +108,7 @@ const Contact = () => {
           >
             You can as well reach out to me below;
           </h3>
-          <div className="flex flex-row m-auto gap-4 pt-3" data-aos="fade-in" data-aos-delay="100" data-aos-duration="1000">
+          <div className="flex flex-row m-auto gap-4 pt-3">
             <TbBrandWhatsapp className="text-white text-5xl fill-green-600 cursor-pointer sm:text-4xl" />
             <TbBrandLinkedin className="text-white text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
             <TbBrandTwitter className="text-blue-600 text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />

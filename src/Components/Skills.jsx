@@ -9,9 +9,7 @@ import architecture from "../assets/architecture project.png";
 import counter from "../assets/counter app.png";
 import ctmaid from "../assets/ctmaid project.png";
 import "./style.css";
-import Aos from "aos";
-import 'aos/dist/aos.css';
-Aos.init()
+
 
 const Skills = () => {
   const [open, setOpen] = useState(false);
@@ -48,7 +46,7 @@ const Skills = () => {
             <ul
               className="flex justify-center flex-col gap-6 sm:gap-2 text-center cursor-pointer
             pb-10"
-              style={Font}
+              style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"
             >
               <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/" target="_blank">
