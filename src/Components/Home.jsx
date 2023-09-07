@@ -23,7 +23,7 @@ const Home = () => {
      <div>
      <div
         className="p-5 h-full w-full sm:h-full sm:w-full sm:overflow-hidden pt-7 mt-2
-         border-b-2 border-r-0 border-l-0
+         border-b-4 border-r-0 border-l-0
           border-t-0 rounded-t-xl m-auto sm:mt-0 bg-slate-200"
       >
         <div
@@ -65,7 +65,7 @@ const Home = () => {
         )}
         </div>
     <div className='w-full sm:w-full  h-full sm:h-full bg-slate-200 flex flex-col space-x-4 sm:flex
-     sm:flex-col justify-center m-auto pb-9 sm:overflow-hidden'>
+     sm:flex-col justify-center m-auto 2xl:mb-10 sm:overflow-hidden mt-3'>
       <div className='flex sm:flex-col justify-around' data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
       <img src={image} alt="my image" className='h-[500px] sm:h-[150px] sm:w-[210px] sm:m-auto' data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000"/>
 <div className='flex gap-5 sm:pt-2'>
@@ -81,7 +81,7 @@ const Home = () => {
 
   </div>
       </div>
-      <div className='pt-5 flex justify-center sm:pt-20 relative right-2' data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
+      <div className='pt-5 flex justify-center sm:pt-20 relative right-2 pb-4' data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
         <div className='flex justify-center bg-blue-200 w-fit gap-3'>
           <FaHtml5 className="w-[80px] h-[50px] fill-red-600 sm:w-[50px]
          border border-t-4 border-b-2 border-r-2 border-l-2 border-blue-500 rounded-md hover:animate-pulse"/>
