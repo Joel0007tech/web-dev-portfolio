@@ -110,7 +110,7 @@ const About = () => {
                 href=""
                 className=" bg-blue-700 border rounded text-white font-bold sm:font-medium
       hover:text-blue-700 hover:bg-slate-400 pr-28 sm:pr-5 pl-28 sm:pl-5 pt-5
-       sm:pt-2 pb-5 sm:pb-2 text-2xl sm:text-lg relative right-8"
+       sm:pt-2 pb-5 sm:pb-2 text-2xl sm:text-lg 2xl:relative 2xl:right-8 sm:m-auto"
                 style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"
               >
                 {link.secondText}
