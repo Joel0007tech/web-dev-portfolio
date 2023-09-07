@@ -47,17 +47,17 @@ const Home = () => {
           sm:border-b-2 sm:border-white sm:rounded-b-md bg-blue-800">
             <ul
               className="flex justify-center flex-col gap-6 sm:gap-2 text-center cursor-pointer
-            pb-10" style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+            p-4" style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+              <li className="text-white font-bold text-2xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/" target='_blank'>{navTexts.first}</Link>
               </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-2xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/about" target='__blank'>{navTexts.second}</Link>
               </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-2xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/skills" target='_blank'>{navTexts.third}</Link>
               </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-2xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/contact" target='_blank'>{navTexts.fourth}</Link>
               </li>   
             </ul>
