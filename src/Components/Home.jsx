@@ -22,9 +22,9 @@ const Home = () => {
     <>
      <div>
      <div
-        className="p-5 h-full w-full sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
-         bg-blue-700 border-b-0 border-r-0 border-l-0
-          border-t-2 rounded-t-xl m-auto sm:mt-0"
+        className="p-5 h-full w-full sm:h-full sm:w-full sm:overflow-hidden pt-7 mt-2
+         border-b-2 border-r-0 border-l-0
+          border-t-0 rounded-t-xl m-auto sm:mt-0 bg-slate-200"
       >
         <div
           className=" overflow-hidden"
@@ -35,7 +35,7 @@ const Home = () => {
               alt=""
               className="w-[90px] sm:w-[50px] h-[50px] sm:h-[30px]"/>
             <FaUserAlt
-              className="cursor-pointer sm:cursor-pointer text-white sm:text-white
+              className="cursor-pointer sm:cursor-pointer text-blue-700 sm:text-blue-700
               sm:text-2xl text-4xl float-right font-normal hover:text-gray sm:float-right"
               onClick={() => setOpen(!open)}
             />
@@ -44,8 +44,7 @@ const Home = () => {
         {open && (
           <div
             className="overflow-hidden
-          sm:border-b-2 sm:border-white sm:rounded-b-md"
-          >
+          sm:border-b-2 sm:border-white sm:rounded-b-md bg-blue-800">
             <ul
               className="flex justify-center flex-col gap-6 sm:gap-2 text-center cursor-pointer
             pb-10" style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
@@ -65,7 +64,7 @@ const Home = () => {
           </div>
         )}
         </div>
-    <div className='w-full sm:w-[330px]  h-full sm:h-full bg-slate-200 flex flex-col space-x-4 sm:flex
+    <div className='w-full sm:w-full  h-full sm:h-full bg-slate-200 flex flex-col space-x-4 sm:flex
      sm:flex-col justify-center m-auto pb-9 sm:overflow-hidden'>
       <div className='flex sm:flex-col justify-around' data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
       <img src={image} alt="my image" className='h-[500px] sm:h-[150px] sm:w-[210px] sm:m-auto' data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000"/>
