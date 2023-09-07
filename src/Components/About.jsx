@@ -110,8 +110,8 @@ const About = () => {
                 href=""
                 className=" bg-blue-700 border rounded text-white font-bold sm:font-medium
       hover:text-blue-700 hover:bg-slate-400 pr-28 sm:pr-5 pl-28 sm:pl-5 pt-5
-       sm:pt-2 pb-5 sm:pb-2 text-2xl sm:text-lg"
-                style={Font}
+       sm:pt-2 pb-5 sm:pb-2 text-2xl sm:text-lg relative right-8"
+                style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"
               >
                 {link.secondText}
               </a>
@@ -121,7 +121,7 @@ const About = () => {
         <div className="sm:relative sm:bottom-36">
         <h3 className="text-blue-700 font-bold text-center text-3xl pt-4 sm:text-xl" style={Font}>
           Few Out Of The Categories Of Websites(apps) I Will Develop For You;</h3>
-        <div className="flex gap-4 p-6 sm:flex-col">
+        <div className="flex gap-4 p-6 sm:flex-col" data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
          <div>
           <img src={biography} alt="biography" className="w-[350px] h-[180px]"/>
           <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
