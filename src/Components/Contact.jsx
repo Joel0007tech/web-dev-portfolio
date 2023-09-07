@@ -9,6 +9,9 @@ import {
   TbBrandTwitter,
   TbBrandInstagram,
 } from "react-icons/tb";
+import Aos from "aos";
+import 'aos/dist/aos.css';
+Aos.init();
 
 const Contact = () => {
   const [open, setOpen] = useState(false);
@@ -23,7 +26,7 @@ const Contact = () => {
   return (
     <div>
       <div
-        className="p-5 h-full w-[1850px] sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
+        className="p-5 h-full w-full sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
         bg-blue-700 border-b-0 border-r-0 border-l-0
          border-t-2 rounded-t-xl m-auto sm:mt-0"
       >
@@ -75,7 +78,7 @@ const Contact = () => {
           </div>
         )}
       </div>
-      <div className="bg-slate-200 w-[1850px] m-auto sm:h-full sm:w-[330px] sm:overflow-hidden pt-6">
+      <div className="bg-slate-200 w-full m-auto sm:h-full sm:w-[330px] sm:overflow-hidden pt-6">
         <h3
           className="text-blue-700 font-bold text-2xl text-center sm:text-xl"
           style={Font}
@@ -106,7 +109,7 @@ const Contact = () => {
           >
             You can as well reach out to me below;
           </h3>
-          <div className="flex flex-row m-auto gap-4 pt-3">
+          <div className="flex flex-row m-auto gap-4 pt-3" data-aos="fade-in" data-aos-delay="100" data-aos-duration="1000">
             <TbBrandWhatsapp className="text-white text-5xl fill-green-600 cursor-pointer sm:text-4xl" />
             <TbBrandLinkedin className="text-white text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
             <TbBrandTwitter className="text-blue-600 text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />

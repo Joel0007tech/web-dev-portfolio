@@ -20,7 +20,7 @@ const About = () => {
   return (
     <div>
       <div
-        className="p-5 h-full w-[1850px] sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
+        className="p-5 h-full w-full sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
          bg-blue-700 border-b-0 border-r-0 border-l-0
           border-t-2 rounded-t-xl m-auto sm:mt-0"
       >
@@ -46,7 +46,7 @@ const About = () => {
           >
             <ul
               className="flex justify-center flex-col gap-6 sm:gap-2 text-center cursor-pointer
-            pb-10" style={Font}
+            pb-10" style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"
             >
               <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/" target='_blank'>{navTexts.first}</Link>
@@ -64,16 +64,13 @@ const About = () => {
           </div>
         )}
         </div>
-      <div className=" bg-slate-200 h-[820px] w-[1850px] m-auto sm:h-[1800px] sm:w-[330px] sm:overflow-hidden">
+      <div className=" bg-slate-200 h-[820px] w-full m-auto sm:h-[1800px] sm:w-[330px] sm:overflow-hidden">
         <h3
           className="text-blue-700 font-bold text-center text-4xl pt-5 sm:text-2xl"
           style={Font}
         >
           About Me
         </h3>
-        <a href="tel:+234-903-541-5909">call me</a><br/>
-        <a href="sms:+234-706-428-9990">hello brooo</a><br/>
-        <a href="mailto:joelnft00@gmail.com">idan haffa</a>
         <div className="flex justify-center py-5 sm:flex sm:flex-col sm:gap-10">
           <div className="w-1/2 animate__animated animate__fadeInLeft flex flex-row justify-center">
             <img
