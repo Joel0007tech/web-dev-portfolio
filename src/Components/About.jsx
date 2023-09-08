@@ -20,7 +20,7 @@ const About = () => {
   return (
     <div>
       <div
-        className="p-5 h-full w-full sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
+        className="p-5 h-full w-full sm:h-full sm:w-full sm:overflow-hidden pt-7 mt-2
          bg-blue-700 border-b-0 border-r-0 border-l-0
           border-t-2 rounded-t-xl m-auto sm:mt-0"
       >
@@ -64,7 +64,7 @@ const About = () => {
           </div>
         )}
         </div>
-      <div className=" bg-slate-200 h-[820px] w-full m-auto sm:h-[1800px] sm:w-[330px] sm:overflow-hidden">
+      <div className=" bg-slate-200 h-[820px] w-full m-auto sm:h-full sm:w-full sm:overflow-hidden">
         <h3
           className="text-blue-700 font-bold text-center text-4xl pt-5 sm:text-2xl"
           style={Font}
@@ -105,12 +105,12 @@ const About = () => {
               <SiTailwindcss className="w-[100px] h-[200px] text-blue-400 sm:w-[50px]"/>
               <FaReact className="w-[100px] h-[200px] text-blue-400 sm:w-[50px]"/>
             </div>
-            <div className="relative right-16 pt-5 sm:left-24 sm:relative sm:bottom-36">
+            <div className="relative right-16 pt-5 sm:bottom-36">
               <a
                 href=""
                 className=" bg-blue-700 border rounded text-white font-bold sm:font-medium
       hover:text-blue-700 hover:bg-slate-400 pr-28 sm:pr-5 pl-28 sm:pl-5 pt-5
-       sm:pt-2 pb-5 sm:pb-2 text-2xl sm:text-lg 2xl:relative 2xl:right-8 sm:m-auto"
+       sm:pt-2 pb-5 sm:pb-2 text-2xl sm:text-lg 2xl:relative 2xl:right-8  sm:m-auto"
                 style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"
               >
                 {link.secondText}
