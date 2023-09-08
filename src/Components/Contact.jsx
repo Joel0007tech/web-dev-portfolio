@@ -26,32 +26,32 @@ const Contact = () => {
   return (
     <div>
       <div
-        className="p-3 h-full w-full sm:h-full sm:w-full sm:overflow-hidden pt-7 mt-2
-        bg-blue-700 border-b-0 border-r-0 border-l-0
-         border-t-2 rounded-t-xl m-auto sm:mt-0"
+        className="px-5 py-3 h-full w-full sm:h-full sm:w-full sm:overflow-hidden mt-2 sm:mt-3
+        border-b-4 border-r-0 border-l-0
+         border-t-0 rounded-t-xl rounded-b-xl m-auto bg-slate-200"
       >
         <div className=" overflow-hidden">
           <div className="sm:flex flex justify-between">
             <img
               src={image}
-              alt=""
-              className="w-[90px] sm:w-[50px] h-[50px] sm:h-[30px]"
+              alt="img"
+              className="w-[90px] sm:w-[50px] h-[50px] sm:h-[30px] rounded-t-md rounded-b-md relative top-2"
             />
             <FaUserAlt
-              className="cursor-pointer sm:cursor-pointer text-white sm:text-white
-              sm:text-2xl text-4xl float-right font-normal hover:text-gray sm:float-right"
+               className="cursor-pointer sm:cursor-pointer text-blue-700 sm:text-blue-700
+               sm:text-2xl text-4xl font-normal relative top-1"
               onClick={() => setOpen(!open)}
             />
           </div>
         </div>
         {open && (
           <div
-            className="overflow-hidden
-          sm:border-b-2 sm:border-white sm:rounded-b-md"
+          className="overflow-hidden
+          sm:border-b-2 sm:border-white sm:rounded-b-md bg-blue-800"
           >
             <ul
-              className="flex justify-center flex-col gap-6 sm:gap-4 text-center cursor-pointer
-            pb-10"
+             className="flex justify-center flex-col gap-6 sm:gap-4 text-center cursor-pointer
+             p-4"
               style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"
             >
               <li className="text-white font-bold text-2xl sm:text-sm sm:font-semibold hover:text-gray-500">
@@ -78,7 +78,8 @@ const Contact = () => {
           </div>
         )}
       </div>
-      <div className="bg-slate-200 w-full m-auto sm:h-full sm:w-full sm:overflow-hidden pt-6">
+      <div className="w-full sm:w-full h-full sm:h-full bg-slate-200 flex flex-col space-x-4 sm:flex
+     sm:flex-col justify-center m-auto 2xl:mb-10 sm:overflow-hidden mt-3">
         <h3
           className="text-blue-700 font-bold text-2xl text-center sm:text-xl"
           style={Font}
