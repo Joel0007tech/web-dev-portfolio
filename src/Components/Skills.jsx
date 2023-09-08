@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import image from "../assets/FB_IMG_1632361671640__2_-removebg-preview.png";
+import image from "../assets/c63cdec905e7964a907dc513fbda7f36.jpg";
 import { Link } from "react-router-dom";
 import { navTexts } from "../constants";
 import { FaUserAlt, FaArrowRight } from "react-icons/fa";

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import image from "../assets/FB_IMG_1632361671640__2_-removebg-preview.png";
+import image from "../assets/c63cdec905e7964a907dc513fbda7f36.jpg";
+import imageMe from "../assets/FB_IMG_1632361671640__2_-removebg-preview.png";
 import { link, navTexts } from "../constants";
 import { FaUserAlt, FaHtml5, FaReact, FaCss3Alt } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
@@ -20,20 +21,20 @@ const About = () => {
   return (
     <div>
       <div
-        className="p-3 h-full w-full sm:h-full sm:w-full sm:overflow-hidden pt-7 mt-2
-         bg-blue-700 border-b-0 border-r-0 border-l-0
-          border-t-2 rounded-t-xl m-auto sm:mt-0"
+       className="px-5 py-3 h-full w-full sm:h-full sm:w-full sm:overflow-hidden mt-2 sm:mt-3
+       border-b-4 border-r-0 border-l-0
+        border-t-0 rounded-t-xl rounded-b-xl m-auto bg-slate-200"
       >
         <div className=" overflow-hidden">
           <div className="sm:flex flex justify-between">
             <img
               src={image}
               alt=""
-              className="w-[90px] sm:w-[50px] h-[50px] sm:h-[30px]"
+              className="w-[90px] sm:w-[50px] h-[50px] sm:h-[30px] rounded-t-md rounded-b-md relative top-2"
             />
             <FaUserAlt
-              className="cursor-pointer sm:cursor-pointer text-white sm:text-white
-              sm:text-2xl text-4xl float-right font-normal hover:text-gray sm:float-right"
+              className="cursor-pointer sm:cursor-pointer text-blue-700 sm:text-blue-700
+              sm:text-2xl text-4xl font-normal relative top-1"
               onClick={() => setOpen(!open)}
             />
           </div>
@@ -41,11 +42,11 @@ const About = () => {
         {open && (
           <div
             className="overflow-hidden
-          sm:border-b-2 sm:border-white sm:rounded-b-md"
+          sm:border-b-2 sm:border-white sm:rounded-b-md bg-blue-800"
           >
             <ul
               className="flex justify-center flex-col gap-6 sm:gap-4 text-center cursor-pointer
-            pb-10"
+              p-4"
               style={Font}
               data-aos="fade-right"
               data-aos-delay="100"
@@ -75,7 +76,8 @@ const About = () => {
           </div>
         )}
       </div>
-      <div className=" bg-slate-200 h-full w-full m-auto sm:h-full sm:w-full sm:overflow-hidden">
+      <div  className="w-full sm:w-full h-full sm:h-full bg-slate-200 flex flex-col space-x-4 sm:flex
+     sm:flex-col justify-center m-auto 2xl:mb-10 sm:overflow-hidden mt-3 overflow-hidden">
         <h3
           className="text-blue-700 font-bold text-center text-4xl pt-5 sm:text-2xl"
           style={Font}
@@ -85,7 +87,7 @@ const About = () => {
         <div className="flex justify-center py-5 sm:flex sm:flex-col sm:gap-10">
           <div className="w-1/2 animate__animated animate__fadeInLeft flex flex-row justify-center">
             <img
-              src={image}
+              src={imageMe}
               alt="vector"
               className="h-[250px] w-[350px] sm:relative sm:left-[100px] 2xl:block sm:hidden"
             />
@@ -118,9 +120,9 @@ const About = () => {
               <SiTailwindcss className="w-[100px] h-[200px] text-blue-400 sm:w-[50px]" />
               <FaReact className="w-[100px] h-[200px] text-blue-400 sm:w-[50px]" />
             </div>
-            <div className="relative right-24">
-             <a href="http://" className="w-full bg-blue-700 text-white rounded-md px-10
-              py-3 leading-normal">{link.secondText}</a> 
+            <div className="relative right-24 sm:relative sm:left-12 sm:bottom-24">
+             <a href="http://" className="w-full bg-blue-700 text-white rounded-md px-16
+              py-5 leading-normal text-2xl sm:py-3">{link.secondText}</a> 
             </div>
           </div>
         </div>
@@ -134,14 +136,14 @@ const About = () => {
           <div
             className="flex gap-4 p-6 sm:flex-col"
             data-aos="zoom-out"
-            data-aos-delay="100"
+            data-aos-delay="70"
             data-aos-duration="1000"
           >
             <div>
               <img
                 src={biography}
                 alt="biography"
-                className="w-[350px] h-[180px]"
+                className="w-[350px] h-[180px] rounded-t-md rounded-b-md"
               />
               <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
                 <p
@@ -153,7 +155,7 @@ const About = () => {
               </div>
             </div>
             <div>
-              <img src={blog} alt="blog" className="w-[350px] h-[180px]" />
+              <img src={blog} alt="blog" className="w-[350px] h-[180px] rounded-t-md rounded-b-md" />
               <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
                 <p
                   className="text-blue-700 font-bold text-center text-lg"
@@ -167,7 +169,7 @@ const About = () => {
               <img
                 src={eCommerce}
                 alt="e-commerce"
-                className="w-[350px] h-[180px]"
+                className="w-[350px] h-[180px] rounded-t-md rounded-b-md"
               />
               <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
                 <p
@@ -182,7 +184,7 @@ const About = () => {
               <img
                 src={branding}
                 alt="branding"
-                className="w-[350px] h-[180px]"
+                className="w-[350px] h-[180px] rounded-t-md rounded-b-md"
               />
               <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
                 <p
@@ -197,7 +199,7 @@ const About = () => {
               <img
                 src={charity}
                 alt="charity"
-                className="w-[350px] h-[180px]"
+                className="w-[350px] h-[180px] rounded-t-md rounded-b-md"
               />
               <div className="bg-white w-[150px] relative bottom-28 m-auto pt-2 pb-2">
                 <p
