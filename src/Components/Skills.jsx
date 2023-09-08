@@ -20,7 +20,7 @@ const Skills = () => {
   return (
     <div>
       <div
-        className="p-5 h-full w-full sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
+        className="p-5 h-full w-full sm:h-full sm:w-full sm:overflow-hidden pt-7 mt-2
         bg-blue-700 border-b-0 border-r-0 border-l-0
          border-t-2 rounded-t-xl m-auto sm:mt-0"
       >
@@ -72,7 +72,7 @@ const Skills = () => {
           </div>
         )}
       </div>
-      <div className="bg-slate-200 w-full m-auto sm:h-full sm:w-[330px] sm:overflow-hidden">
+      <div className="bg-slate-200 w-full m-auto sm:h-full sm:w-full sm:overflow-hidden">
         <h3
           className="text-blue-700 font-bold text-3xl pt-4 text-center sm:text-lg"
           style={Font}
