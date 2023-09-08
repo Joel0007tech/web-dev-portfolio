@@ -118,8 +118,9 @@ const About = () => {
               <SiTailwindcss className="w-[100px] h-[200px] text-blue-400 sm:w-[50px]" />
               <FaReact className="w-[100px] h-[200px] text-blue-400 sm:w-[50px]" />
             </div>
-            <div>
-             <a href="http://" className="w-full bg-blue-700 text-white rounded-md px-10 py-3 2xl:relative 2xl:right-20 leading-normal">{link.secondText}</a> 
+            <div className="relative right-24">
+             <a href="http://" className="w-full bg-blue-700 text-white rounded-md px-10
+              py-3 leading-normal">{link.secondText}</a> 
             </div>
           </div>
         </div>
