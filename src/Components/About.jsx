@@ -82,17 +82,14 @@ const About = () => {
           <div className="2xl:w-1/2 animate__animated animate__fadeInRight sm:m-auto sm:w-full">
             <p
               className="text-blue-700 text-2xl relative right-24 2xl:pt-4 font-bold sm:relative
-               sm:left-0 sm:text-lg sm:pt-0 sm:text-center sm:bottom-10"
+               sm:left-0 sm:text-lg sm:pt-0 sm:text-center sm:bottom-10 2xl:text-center "
               style={Font}
             >
-              JOEL is a web developer, with <br className="sm:block 2xl:hidden"/>over 3 years of epeerience,
-              <br className="2xl:block sm:hidden"/>
-              in <br className="sm:block 2xl:hidden"/> developing websites and webApps,<br className="sm:block 2xl:hidden"/> for individuals,
-               and <br className="2xl:block sm:hidden"/>
-              companies, helping them achieve their<br className="sm:block 2xl:hidden"/>  aims and objectives.
-              <br />
-              I have experience in:
-              <br />
+              JOEL is a web developer, with over 3 years<br/>
+              of eperience, in developing websites and <br className="2xl:block sm:hidden"/>
+               webApps, for individuals, and companies, <br className="2xl:block sm:hidden"/>
+              helping them achieve their aims and objectives.<br/>
+              I have experience in:<br/>
               <span className="text-gray-500 font-bold">
                 {" "}
                 HTML, CSS, JAVASCRIPT, TAILWINDCSS, AND REACTjs.
@@ -108,9 +105,9 @@ const About = () => {
             <div>
               <a
                 href=""
-                className=" bg-blue-700 border rounded text-white font-bold sm:font-medium
+                className=" bg-blue-700 border rounded text-yellow-500 font-bold sm:font-medium
       hover:text-blue-700 hover:bg-slate-400 pr-28 sm:pr-5 pl-28 sm:pl-5 pt-5
-       sm:pt-2 pb-5 sm:pb-2 text-2xl sm:text-lg"
+       sm:pt-2 pb-5 sm:pb-2 text-2xl sm:text-lg "
                 style={Font}
               >
                 {link.secondText}
@@ -118,8 +115,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="sm:relative sm:bottom-36">
-        <h3 className="text-blue-700 font-bold text-center text-3xl pt-10 sm:text-xl" style={Font}>
+        <div className="sm:relative sm:bottom-36 pt-20">
+        <h3 className="text-blue-700 font-bold text-center text-3xl sm:text-xl" style={Font}>
           Few Out Of The Categories Of Websites(apps) I Will Develop For You;</h3>
         <div className="flex gap-4 p-6 sm:flex-col" data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
          <div>
