@@ -22,7 +22,7 @@ const Home = () => {
     <>
      <div>
      <div
-        className="p-5 h-full w-full sm:h-full sm:w-full sm:overflow-hidden pt-7 mt-2
+        className="p- h-full w-full sm:h-full sm:w-full sm:overflow-hidden pt-7 mt-2
          border-b-4 border-r-0 border-l-0
           border-t-0 rounded-t-xl m-auto sm:mt-0 bg-slate-200"
       >
@@ -46,7 +46,7 @@ const Home = () => {
             className="overflow-hidden
           sm:border-b-2 sm:border-white sm:rounded-b-md bg-blue-800">
             <ul
-              className="flex justify-center flex-col gap-6 sm:gap-2 text-center cursor-pointer
+              className="flex justify-center flex-col gap-6 sm:gap-4 text-center cursor-pointer
             p-4" style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
               <li className="text-white font-bold text-2xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/" target='_blank'>{navTexts.first}</Link>

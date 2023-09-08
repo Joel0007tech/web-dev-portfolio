@@ -44,7 +44,7 @@ const Skills = () => {
           sm:border-b-2 sm:border-white sm:rounded-b-md"
           >
             <ul
-              className="flex justify-center flex-col gap-6 sm:gap-2 text-center cursor-pointer
+              className="flex justify-center flex-col gap-6 sm:gap-4 text-center cursor-pointer
             pb-10"
               style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"
             >

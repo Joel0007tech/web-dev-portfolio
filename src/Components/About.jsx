@@ -20,7 +20,7 @@ const About = () => {
   return (
     <div>
       <div
-        className="p-5 h-full w-full sm:h-full sm:w-full sm:overflow-hidden pt-7 mt-2
+        className="p-3 h-full w-full sm:h-full sm:w-full sm:overflow-hidden pt-7 mt-2
          bg-blue-700 border-b-0 border-r-0 border-l-0
           border-t-2 rounded-t-xl m-auto sm:mt-0"
       >
@@ -45,19 +45,19 @@ const About = () => {
           sm:border-b-2 sm:border-white sm:rounded-b-md"
           >
             <ul
-              className="flex justify-center flex-col gap-6 sm:gap-2 text-center cursor-pointer
+              className="flex justify-center flex-col gap-6 sm:gap-4 text-center cursor-pointer
             pb-10" style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"
             >
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-2xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/" target='_blank'>{navTexts.first}</Link>
               </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-2xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/about" target='__blank'>{navTexts.second}</Link>
               </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-2xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/skills" target='_blank'>{navTexts.third}</Link>
               </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-2xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/contact" target='_blank'>{navTexts.fourth}</Link>
               </li>   
             </ul>
@@ -110,7 +110,7 @@ const About = () => {
                 href=""
                 className=" bg-blue-700 border rounded text-white font-bold sm:font-medium
       hover:text-blue-700 hover:bg-slate-400 pr-28 sm:pr-5 pl-28 sm:pl-5 pt-5
-       sm:pt-2 pb-5 sm:pb-2 text-2xl sm:text-lg 2xl:relative 2xl:right-8  sm:m-auto"
+       sm:pt-2 pb-5 sm:pb-2 text-2xl sm:text-lg 2xl:relative 2xl:right-8 "
                 style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"
               >
                 {link.secondText}
