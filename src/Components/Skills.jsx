@@ -20,7 +20,7 @@ const Skills = () => {
   return (
     <div>
       <div
-        className="p-5 h-full w-full sm:h-full sm:w-full sm:overflow-hidden pt-7 mt-2
+        className="p-3 h-full w-full sm:h-full sm:w-full sm:overflow-hidden pt-7 mt-2
         bg-blue-700 border-b-0 border-r-0 border-l-0
          border-t-2 rounded-t-xl m-auto sm:mt-0"
       >
@@ -48,22 +48,22 @@ const Skills = () => {
             pb-10"
               style={Font} data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"
             >
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-2xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/" target="_blank">
                   {navTexts.first}
                 </Link>
               </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-2xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/about" target="__blank">
                   {navTexts.second}
                 </Link>
               </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-2xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/skills" target="_blank">
                   {navTexts.third}
                 </Link>
               </li>
-              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-2xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/contact" target="_blank">
                   {navTexts.fourth}
                 </Link>
